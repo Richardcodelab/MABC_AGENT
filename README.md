@@ -33,6 +33,19 @@ Timely AI 스킬 스토어에 올릴 **이력서 × 채용공고 역량 매칭 �
 | [docs/01-idea-design.md](docs/01-idea-design.md) | 아이디어 설계 근거 |
 | [docs/02-ncs-decision.md](docs/02-ncs-decision.md) | NCS 활용 방식 결정 |
 | [docs/03-scoring-strategy.md](docs/03-scoring-strategy.md) | 배점표 → SKILL.md 작성 전략 |
+| [docs/04-submission-text.md](docs/04-submission-text.md) | 구글 폼용 스킬명·요약·상세설명 |
+| [docs/05-timely-handoff.md](docs/05-timely-handoff.md) | 타임리 이관 및 제출 절차 |
+| [samples/TEST-PLAN.md](samples/TEST-PLAN.md) | 테스트 케이스 29종 (정상 + 예외 + 재현성) |
+
+## 테스트 샘플
+
+전부 가상 인물·가상 기업입니다. 실제 이력서·공고는 개인정보와 저작권 문제로 쓰지 않습니다.
+
+| 이력서 | 의도 | 채용공고 | 의도 |
+|---|---|---|---|
+| [R1 데이터엔지니어](samples/resumes/R1-데이터엔지니어-3년.md) | 근거 충실 | [J1 직함 불일치](samples/jobs/J1-직함불일치-데이터.md) | 진짜 직무 판정 |
+| [R2 신입](samples/resumes/R2-신입-무경력.md) | 무경력 예외 | [J2 담당업무만](samples/jobs/J2-담당업무만-있음.md) | 자격요건 부재 |
+| [R3 과장형](samples/resumes/R3-과장형-마케터.md) | 증명 실패 탐지 | [J3 마케터](samples/jobs/J3-마케터.md) | 근거 없는 충족 방지 |
 
 ## 진행 상황
 
@@ -40,9 +53,10 @@ Timely AI 스킬 스토어에 올릴 **이력서 × 채용공고 역량 매칭 �
 - [x] 아이디어 확정
 - [x] 공식 규정 및 심사 배점표 반영
 - [x] 스킬 3종 작성 (배점표 대응)
+- [x] 테스트 샘플 및 테스트 계획 작성
+- [x] 구글 폼용 텍스트 작성
 - [ ] **타임리 편집창에서 스킬 제작** (제5조 1항 — 타 서비스 제작 시 실격)
-- [ ] 새 대화창 + 처음 보는 입력으로 동작 테스트
-- [ ] 구글 폼용 스킬명 / 1줄 요약 / 상세 설명 작성
+- [ ] 새 대화창 + 처음 보는 입력으로 동작 테스트 → 프롬프트 조정
 - [ ] 스토어 업로드 (태그 `mabc-final`) + 구글 폼 제출
 
 > 🚨 이 저장소의 `SKILL.md`는 **원고**입니다. 로컬에서 zip으로 압축해 제출하면 실격입니다.
