@@ -6,11 +6,14 @@ Timely AI 스킬 스토어에 올릴 **이력서 × 채용공고 역량 매칭 �
 
 ## 스킬 3종
 
-| 스킬 | 입력 | 출력 |
+| 스킬 | 푸는 문제 | 사용 시점 |
 |---|---|---|
-| [이력서 역량 추출기](skills/resume-skill-extractor/SKILL.md) | 이력서 | 역량 프로필 + 공백 진단 |
-| [채용공고 요구역량 분해기](skills/jd-skill-extractor/SKILL.md) | 채용공고 | 필수/우대/숨은 요구사항 분해 |
-| [역량 매칭 리포트](skills/skill-matcher/SKILL.md) ⭐ | 이력서 + 공고 | 적합도 점수 + 근거 + 보완 전략 |
+| [이력서 역량 진단기](skills/resume-skill-extractor/SKILL.md) | 내 경력이 문서에서 **증명되고 있는가** | 이력서를 고칠 때 |
+| [채용공고 해부기](skills/jd-skill-extractor/SKILL.md) | 이 공고가 **실제로 원하는 게 뭔가** | 공고를 처음 볼 때 |
+| [지원 판단 리포트](skills/skill-matcher/SKILL.md) ⭐ | 이 공고에 **지원할 가치가 있는가** | 지원 버튼 누르기 전 |
+
+세 스킬은 **문서의 왜곡 방향이 서로 다릅니다** — 이력서는 과장되고(근거 검증으로 보정),
+공고는 축약되며(숨은 요구 복원으로 보정), 매칭은 양쪽을 동시에 보정합니다.
 
 세 스킬은 [공통 스킬 레코드 스키마](skills/_SCHEMA.md)를 공유합니다.
 1·2번의 JSON 출력을 3번에 그대로 넣을 수 있고, 3번은 **원문만으로도 단독 동작**합니다.
@@ -26,14 +29,21 @@ Timely AI 스킬 스토어에 올릴 **이력서 × 채용공고 역량 매칭 �
 
 | 파일 | 내용 |
 |---|---|
-| [docs/00-competition-brief.md](docs/00-competition-brief.md) | 대회 규정·일정 정리 |
+| [docs/00-competition-brief.md](docs/00-competition-brief.md) | 공식 규정·심사 배점·제출 절차 (확정본) |
 | [docs/01-idea-design.md](docs/01-idea-design.md) | 아이디어 설계 근거 |
+| [docs/02-ncs-decision.md](docs/02-ncs-decision.md) | NCS 활용 방식 결정 |
+| [docs/03-scoring-strategy.md](docs/03-scoring-strategy.md) | 배점표 → SKILL.md 작성 전략 |
 
 ## 진행 상황
 
 - [x] 대회 정보 조사
 - [x] 아이디어 확정
-- [x] 스킬 3종 초안 작성
-- [ ] Timely AI 스킬 스토어 형식 확인 및 변환
-- [ ] 실제 이력서/공고 샘플로 동작 테스트
-- [ ] 스토어 업로드
+- [x] 공식 규정 및 심사 배점표 반영
+- [x] 스킬 3종 작성 (배점표 대응)
+- [ ] **타임리 편집창에서 스킬 제작** (제5조 1항 — 타 서비스 제작 시 실격)
+- [ ] 새 대화창 + 처음 보는 입력으로 동작 테스트
+- [ ] 구글 폼용 스킬명 / 1줄 요약 / 상세 설명 작성
+- [ ] 스토어 업로드 (태그 `mabc-final`) + 구글 폼 제출
+
+> 🚨 이 저장소의 `SKILL.md`는 **원고**입니다. 로컬에서 zip으로 압축해 제출하면 실격입니다.
+> 반드시 타임리 편집창에 옮겨 제작·테스트하고 **[내려받기]한 `skill.zip`** 을 제출하세요.
