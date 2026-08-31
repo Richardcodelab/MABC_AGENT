@@ -61,6 +61,7 @@ Timely AI 스킬 스토어에 올릴 **이력서 × 채용공고 역량 매칭 �
 | [docs/05-timely-handoff.md](docs/05-timely-handoff.md) | 타임리 이관 및 제출 절차 |
 | [docs/06-timely-brief.md](docs/06-timely-brief.md) | 타임리 첫 대화용 간단 명세 |
 | [docs/07-timely-build-script.md](docs/07-timely-build-script.md) | **타임리 제작 대본 — 턴별 붙여넣을 메시지** |
+| [skills/_submitted/README.md](skills/_submitted/README.md) | **제출본 기록 — 타임리 대화에서 나온 개선 목록** |
 | [samples/TEST-PLAN.md](samples/TEST-PLAN.md) | 테스트 케이스 29종 (정상 + 예외 + 재현성) |
 
 ## 테스트 샘플
@@ -79,6 +80,7 @@ Timely AI 스킬 스토어에 올릴 **이력서 × 채용공고 역량 매칭 �
 - [x] 아이디어 확정
 - [x] 공식 규정 및 심사 배점표 반영
 - [x] 스킬 8종 작성 (배점표 대응)
+- [x] 타임리에서 제작 완료 (`jobseeker-coverletter-coach`)
 - [x] 테스트 샘플 및 테스트 계획 작성
 - [x] 구글 폼용 텍스트 작성
 - [ ] **타임리 편집창에서 스킬 제작** (제5조 1항 — 타 서비스 제작 시 실격)
