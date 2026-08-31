@@ -57,11 +57,12 @@ Timely AI 스킬 스토어에 올릴 **이력서 × 채용공고 역량 매칭 �
 | [docs/01-idea-design.md](docs/01-idea-design.md) | 아이디어 설계 근거 |
 | [docs/02-ncs-decision.md](docs/02-ncs-decision.md) | NCS 활용 방식 결정 |
 | [docs/03-scoring-strategy.md](docs/03-scoring-strategy.md) | 배점표 → SKILL.md 작성 전략 |
-| [docs/04-submission-text.md](docs/04-submission-text.md) | 구글 폼용 스킬명·요약·상세설명 |
+| [docs/04-submission-text.md](docs/04-submission-text.md) | ~~구글 폼용 답안 (원고 기준 — 사용 안 함)~~ |
 | [docs/05-timely-handoff.md](docs/05-timely-handoff.md) | 타임리 이관 및 제출 절차 |
 | [docs/06-timely-brief.md](docs/06-timely-brief.md) | 타임리 첫 대화용 간단 명세 |
 | [docs/07-timely-build-script.md](docs/07-timely-build-script.md) | **타임리 제작 대본 — 턴별 붙여넣을 메시지** |
 | [skills/_submitted/README.md](skills/_submitted/README.md) | **제출본 기록 — 타임리 대화에서 나온 개선 목록** |
+| [docs/08-submission-final.md](docs/08-submission-final.md) | **구글 폼 답안 (최종 — 타임리 제작본 기준)** |
 | [samples/TEST-PLAN.md](samples/TEST-PLAN.md) | 테스트 케이스 29종 (정상 + 예외 + 재현성) |
 
 ## 테스트 샘플
