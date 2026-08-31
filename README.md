@@ -60,6 +60,7 @@ Timely AI 스킬 스토어에 올릴 **이력서 × 채용공고 역량 매칭 �
 | [docs/04-submission-text.md](docs/04-submission-text.md) | 구글 폼용 스킬명·요약·상세설명 |
 | [docs/05-timely-handoff.md](docs/05-timely-handoff.md) | 타임리 이관 및 제출 절차 |
 | [docs/06-timely-brief.md](docs/06-timely-brief.md) | 타임리 첫 대화용 간단 명세 |
+| [docs/07-timely-build-script.md](docs/07-timely-build-script.md) | **타임리 제작 대본 — 턴별 붙여넣을 메시지** |
 | [samples/TEST-PLAN.md](samples/TEST-PLAN.md) | 테스트 케이스 29종 (정상 + 예외 + 재현성) |
 
 ## 테스트 샘플
